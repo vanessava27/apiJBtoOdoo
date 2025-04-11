@@ -1,0 +1,17 @@
+jobboss:
+  database:
+    host: "localhost"
+    port: 5432
+    user: "your_jobboss_user"
+    password: "your_jobboss_password"
+    dbname: "your_jobboss_database"
+
+odoo:
+  url: "161.97.88.206:8069"
+  db: "your_odoo_database"
+  username: "your_odoo_username"
+  password: "your_odoo_password"
+
+sync:
+  interval: 60  # Intervalo en segundos para la sincronización automática
+  log_level: "info"  # Nivel de registro para la aplicación
